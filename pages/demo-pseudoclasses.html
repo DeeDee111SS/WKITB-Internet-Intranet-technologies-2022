@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/style-contacts.css">
+        <link rel="stylesheet" href="../css/style-demo.css">
+        <link rel="shortcut icon" href="../img/brendan_eich_com1.PNG" type="image/x-icon">
+        <title>Examples</title>    
+    </head>
+    <body class="body">
+        <header class="header">
+            <div class="container header-flex">
+                <div class="main-pic">
+                    <a href="../index.html"><img class="img-obj-fit-cover" src="../img/main-pic.jpg" alt="" width="361" ;
+                            height="378" /></a>
+                </div>
+                <div class="title">
+                    <h1>Brendan Eich</h1>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="container main-flex">
+                    <nav class="menu">
+                        <h2>Main menu</h2>
+                        <a class="mylink" href="about.html" title="About">About</a>
+                        <a class="mylink" href="contact.html" title="Contacts">Contacts</a>
+                        <a class="mylink" href="gallery.html" title="Gallery (Photo)">Gallery</a>
+                        <a class="mylink" href="media.html" title="Media (Video & Audio)">Media</a>
+                        <a class="mylink" href="form.html" title="Sign up form">Sign up</a>
+                        <button onclick="document.getElementById('demo').innerHTML = Date(); 
+                                            document.getElementById('demo1').style.display = 'none';"
+                            class="mylink mybutton" title="Click to know date/time">
+                            Date/time</button>
+                        <p id="demo"></p>
+                        <p id="demo1"><br><br><br></p>
+                        <div class="placeholder"></div>
+                    </nav>
+                    <div class="main">
+                        <h2>Examples</h2>
+                        <div class="demo-container">
+                                <div class="link-container">
+                                    <a class="mylink1" href="#" title="demo-pseudoclasses">Examples</a>
+                                    <a class="mylink1" href="#1" title="demo-pseudoclasses">Examples</a>
+                                    <a class="mylink1" href="#2" title="demo-pseudoclasses">Examples</a>
+                                    <a class="mylink1" href="#3" title="demo-pseudoclasses">Examples</a>
+                                    <a class="mylink1" href="#4" title="demo-pseudoclasses">Examples</a>
+                                    <a class="mylink1" href="#5" title="demo-pseudoclasses">Examples</a>
+                                    <a class="mylink1" href="#6" title="demo-pseudoclasses">Examples</a>
+                                    <a class="mylink1" href="#7" title="demo-pseudoclasses">Examples</a>
+                                </div>
+                        </div>
+                    </div>
+                    <aside class="right1">
+                        <canvas id="myCanvas" width="240px" height="650px">Your browser do not support tag canvas</canvas>
+                    </aside>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="copyright">
+                    <p><b>Brendan Eich &copy; 2022</b></p>
+                </div>
+            </div>
+        </footer>
+        <script src="../script/app.js"></script>
+        <script src="../script/app2.js"></script>
+    </body>
+</html>

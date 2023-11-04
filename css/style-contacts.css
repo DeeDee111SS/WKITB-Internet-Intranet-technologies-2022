@@ -1,0 +1,171 @@
+.main h2 {
+    text-align: center;
+    padding: 10px 0 30px;
+}
+
+.main-contacts-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contacts-flex .contacts-img, a {
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+}
+
+.main-contacts-flex a:hover {
+    text-decoration: underline;
+    color: rgb(99, 53, 53);
+}
+
+.contacts-img {
+    text-align: end;
+    padding-right: 40px;
+}
+
+.about-img {
+    float: left;
+    margin-right: 10px;
+}
+
+.about-img1 {
+    float: right;
+    margin-left: 10px;
+}
+
+.main p, ol, h2, h3 {
+    padding-bottom: 20px;
+}
+
+.main hr {
+    margin-bottom: 20px;
+}
+
+.t-a-center {
+    text-align: center;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.left-section {
+    width: 30%;
+}
+
+.main-section {
+    width: 40%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.right-section {
+    width: 30%;
+}
+
+.body {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #1e2939;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.slide-container {
+    width: 100%;
+    display: flex;    
+}
+
+.slide {
+    height: 80vh;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    color: #fff;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.slide h3 {
+    position: absolute;
+    font-size: 24px;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.slide.active {
+    flex: 20;
+}
+
+.slide.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+.slide a {
+    color: #464545;
+}
+
+.slide a:hover {
+    color: #ffffff;
+}
+
+@media only screen and (max-width:991px) {
+
+    #myCanvas {
+        height: 100px;
+    }
+}
+
+video {
+    margin-bottom: 20px;
+}
+
+.video {
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.video-wrp {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.video-wrp iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+.main h3 {
+    text-align: center;
+    padding: 10px 0 30px;
+}
+
+.audio {
+    display: block;
+    width: 100%;
+} 

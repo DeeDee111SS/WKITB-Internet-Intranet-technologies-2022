@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/style-contacts.css">
+        <link rel="shortcut icon" href="../img/brendan_eich_com1.PNG" type="image/x-icon">
+        <title>Contacts</title>    
+    </head>
+    <body class="body">
+        <header class="header">
+            <div class="container header-flex">
+                <div class="main-pic">
+                    <a href="../index.html"><img class="img-obj-fit-cover" src="../img/main-pic.jpg" alt="" width="361" ;
+                            height="378" /></a>
+                </div>
+                <div class="title">
+                    <h1>Brendan Eich</h1>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="container main-flex">
+                    <nav class="menu">
+                        <h2>Main menu</h2>
+                        <a class="mylink" href="about.html" title="About">About</a>
+                        <a class="mylink" href="contact.html" title="Contacts">Contacts</a>
+                        <a class="mylink" href="gallery.html" title="Gallery (Photo)">Gallery</a>
+                        <a class="mylink" href="media.html" title="Media (Video & Audio)">Media</a>
+                        <a class="mylink" href="form.html" title="Sign up form">Sign up</a>
+                        <button onclick="document.getElementById('demo').innerHTML = Date(); 
+                                            document.getElementById('demo1').style.display = 'none';"
+                            class="mylink mybutton" title="Click to know date/time">
+                            Date/time</button>
+                        <p id="demo"></p>
+                        <p id="demo1"><br><br><br></p>
+                        <div class="placeholder"></div>
+                    </nav>
+                    <div class="main">
+                        <h2>Contacts</h2>
+                        <div class="main-contacts-flex">
+                            <div class="contacts-img">
+                                <img src="../img/brendan_eich_com1.PNG" alt="" style="height: 50px; padding-left: 110px;">
+                            </div>
+                            <a href="https://brendaneich.com/" target="_blank"><strong>Website</strong></a>
+                            <div class="contacts-img">
+                                <img src="../img/facebook-icon.PNG" alt="" style="height: 50px; padding-left: 110px;">
+                            </div>
+                            <a href="https://www.facebook.com/brendan.eich.77" target="_blank"><strong>Facebook</strong></a>
+                            <div class="contacts-img">
+                                <img src="../img/linkedin.PNG" alt="" style="height: 50px; padding-left: 110px;">
+                            </div>
+                            <a href="https://www.linkedin.com/in/brendaneich?challengeId=AQEJq1PJXY6rCQAAAYQldAb4lfZJ19FXLy8_OpU_CYQ6uceiOutd3XgsP0f0Iohb6vJT_KsyHg17zpZ_FkleDuwr8CN5TX2tkA&submissionId=ab335098-7da4-2217-7b0e-108a93927320&challengeSource=AgFQGVnEvKaZ4wAAAYQldIDjMO3zW8Ikw-bnaexjNM_SVn7lbDMK8ZIEAAEO8i0&challegeType=AgEnvJf-Q3a8iAAAAYQldIDmVCKygL909VvlQ6sws68EmhsQluZB8G8&memberId=AgH3HzE0CbHBjQAAAYQldIDpTP4xZw6Lqpmit4lDZhJBtjw&recognizeDevice=AgEqGjABn77HFQAAAYQldIDt6CkbzFZJjPTfE4j03yWYxZwgFVw3"
+                                target="_blank"><strong>LinkedIn</strong></a>
+                            <div class="contacts-img">
+                                <img src="../img/github.PNG" alt="" style="height: 50px; padding-left: 110px;">
+                            </div>
+                            <a href="https://github.com/BrendanEich" target="_blank"><strong>GitHub</strong></a>
+                        </div>        
+                    </div>
+                    <aside class="right">
+                        <button onclick="myFuncShow()" class="mylink mybutton">
+                            <p>Old version</p>
+                        </button>
+                        <p class="old-frame" style="text-align: center; display: none;">
+                            <iframe src="../old-version/pages/contact.html" style="height: 400px;; width:100%;"
+                                name="myframe"></iframe><br>
+                            <button onclick="myFuncHide()"  class="mylink mybutton">
+                                <p>Hide frame</p>
+                            </button><br>
+                        </p>
+                        <a class="mylink" href="../pages/demo-pseudoclasses.html" title="demo-pseudoclasses">Examples</a>
+                        <div class="placeholder"></div>
+                    </aside>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="copyright">
+                    <p><b>Brendan Eich &copy; 2022</b></p>
+                </div>
+            </div>
+        </footer>
+        <script src="../script/app.js"></script>
+    </body>
+</html>

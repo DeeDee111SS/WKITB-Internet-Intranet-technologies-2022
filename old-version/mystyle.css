@@ -1,0 +1,48 @@
+
+h1, h2, h3, h4 {
+  color: darkblue;
+}
+
+p {
+  text-indent: 30px;
+  text-align: justify;
+  font-size: 14pt;
+  color: darkblue;
+} 
+
+b {
+  color: darkblue;  
+}
+
+strong {
+  text-indent: 30px;
+  text-align: justify;
+  font-size: 14pt;
+  color: darkblue;
+}
+
+li {
+  text-align: justify;
+  font-size: 14pt;
+} 
+
+h2 {
+    text-align: center;
+} 
+
+.mylink {
+  width: 100px; 
+  border: 1px solid #333; 
+  border-radius: 10px; 
+  background: linear-gradient(to bottom, #e9e9ce, #fcfff4); 
+  padding: 10px; 
+  text-decoration: none; 
+  display: block; 
+  color: darkblue; 
+  font-weight: 900;
+}
+
+.mylink:hover {
+  color: maroon; 
+  background: linear-gradient(to bottom, #fcfff4, #e9e9ce); 
+}

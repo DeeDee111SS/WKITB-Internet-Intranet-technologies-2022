@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="../css/style-contacts.css">
+        <title>Sign up</title>
+    </head>
+    <body class="body">
+        <div class="flex-container">
+            <div class="left-section">
+                <canvas id="myCanvas" width="500px" height="500px">Your browser do not support tag canvas</canvas>
+                <canvas id="myCanvas1" width="500px" height="600px">Your browser do not support tag canvas</canvas>
+                <svg height="130" width="100%">
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color: rgb(22, 157, 235); stop-opacity: 1;"/>
+                            <stop offset="100%" style="stop-color: rgb(3, 1, 143); stop-opacity: 1;" />
+                        </linearGradient>
+                    </defs>
+                    <ellipse cx='350' cy='70' rx='115' ry='45' fill='url(#grad1)'/>
+                    <text fill="#ffffff" font-size="45" font-family="Verdana" x="250" y="86">Submit&#9658;</text>
+                </svg>        
+            </div>
+            <div class="main-section">
+                <form action="https://fom.in.ua/echo" method="get">
+                    <fieldset>
+                        <legend>Sign up to our site</legend>
+                        <p>
+                            <label>
+                                Name:*
+                                <input type="text" name="name1" required autofocus>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                Surname:*
+                                <input type="text" name="name2" required autofocus>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                Phone:*
+                                <input type="tel" name="phone" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                E-mail:*
+                                <input type="email" name="email" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                Password:*
+                                <input type="password" name="password" required>
+                            </label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Statistic information</legend>
+                        <p>
+                            <label>
+                                Where do You live:
+                                <select name="city-where">
+                                    <optgroup label="Ukraine">
+                                        <option value="kyiv">Kyiv</option>
+                                        <option value="lviv">Lviv</option>
+                                        <option value="odesa">Odesa</option>
+                                    </optgroup>
+                                    <optgroup label="Poland">
+                                        <option value="warsawa">Warsawa</option>
+                                        <option value="krakow">Krakow</option>
+                                        <option value="sopot">Sopot</option>
+                                    </optgroup>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                Where are You from:
+                                <select name="city-from">
+                                    <optgroup label="Ukraine">
+                                        <option value="kyiv">Kyiv</option>
+                                        <option value="lviv">Lviv</option>
+                                        <option value="odesa">Odesa</option>
+                                    </optgroup>
+                                    <optgroup label="Poland">
+                                        <option value="warsawa">Warsawa</option>
+                                        <option value="krakow">Krakow</option>
+                                        <option value="sopot">Sopot</option>
+                                    </optgroup>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                Date of birth:
+                                <input type="date" name="birth-date">
+                            </label>
+                        </p>                                        
+                        <div>
+                            <p><b>Gender</b></p>
+                            <p>
+                                <label>
+                                    <input type="radio" name="gender" value="male" checked> Male
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="radio" name="gender" value="female"> Female
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="radio" name="gender" value="other"> Other
+                                </label>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>I want to</b></p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" name="option1"> I want to receive notifications
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    Times a week:
+                                    <input type="number" name="ticket-number" value="1">
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" name="option2"> I want to receive newsletter
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    Times a month:
+                                    <input type="number" name="ticket-number" value="1">
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" name="option3"> I want to become a sponsor
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" name="option4"> I want to become a backer
+                                </label>
+                            </p>                        
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>If you need additional information</legend>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="insurance-option" checked> I need additional information
+                            </label>
+                        </p>
+                        <p><b>Download file</b></p>
+                        <p>
+                            <label>
+                                <input type="file" name="document">
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <textarea name="add-inf" cols="30" rows="10" placeholder="Additional information"></textarea>
+                            </label>
+                        </p>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>                    
+                    <a href="../index.html"><button type="button">To Main</button></a>
+                </form>
+            </div>
+            <div class="right-section">
+                <canvas id="myCanvas2" width="500px" height="500px">Your browser do not support tag canvas</canvas>
+                <canvas id="myCanvas3" width="500px" height="600px">Your browser do not support tag canvas</canvas>
+                <svg height="130" width="100%">
+                    <ellipse cx='136' cy='70' rx='115' ry='45' fill='url(#grad1)' />
+                    <text fill="#ffffff" font-size="45" font-family="Verdana" x="28" y="86">&#9668;Submit</text>
+                </svg>
+            </div>
+        </div>
+        <script src="../script/app1.js"></script>
+    </body>
+</html>

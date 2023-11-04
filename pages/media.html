@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/style-contacts.css">
+        <link rel="stylesheet" href="../css/style-demo.css">
+        <link rel="shortcut icon" href="../img/brendan_eich_com1.PNG" type="image/x-icon">
+        <title>Media</title>
+    </head>
+    <body class="body">
+        <header class="header">
+            <div class="container header-flex">
+                <div class="main-pic">
+                    <a href="../index.html"><img class="img-obj-fit-cover" src="../img/main-pic.jpg" alt="" width="361" ;
+                            height="378" /></a>
+                </div>
+                <div class="title">
+                    <h1>Brendan Eich</h1>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="container main-flex">
+                    <nav class="menu">
+                        <h2>Main menu</h2>
+                        <a class="mylink" href="about.html" title="About">About</a>
+                        <a class="mylink" href="contact.html" title="Contacts">Contacts</a>
+                        <a class="mylink" href="gallery.html" title="Gallery (Photo)">Gallery</a>
+                        <a class="mylink" href="media.html" title="Media (Video & Audio)">Media</a>
+                        <a class="mylink" href="form.html" title="Sign up form">Sign up</a>
+                        <button onclick="document.getElementById('demo').innerHTML = Date(); 
+                                                document.getElementById('demo1').style.display = 'none';"
+                            class="mylink mybutton" title="Click to know date/time">
+                            Date/time</button>
+                        <p id="demo"></p>
+                        <p id="demo1"><br><br><br></p>
+                        <div class="placeholder"></div>
+                    </nav>
+                    <div class="main">
+
+                        <h2>Video</h2>
+                        <video controls muted preload="metadata" width="100%" height="auto" poster="../img/poster-video.PNG">
+                            <source src="../video/Person Encoding in a Computer_ Pexels Videos 2278095.mp4" type="video/mp4">
+                            <p>Your browser do not support this video format</p>
+                            <a href="../video/Person Encoding in a Computer_ Pexels Videos 2278095.mp4">Download video</a>
+                        </video>
+                        
+                        <h3>YouTube</h3>
+                        <div class="video">
+                            <div class="video-wrp">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/zlcnOr81lPc" title="YouTube video player"
+                                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="video">
+                            <div class="video-wrp">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/aX3ZABCdC38" title="YouTube video player"
+                                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="video">
+                            <div class="video-wrp">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/wzntnauyq9E" title="YouTube video player"
+                                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="video">
+                            <div class="video-wrp">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/GLhyjVZp0cw" title="YouTube video player"
+                                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <h2>Audio</h2>
+                        <audio class="audio" controls preload="metadata" width="100%">
+                            <source src="../audio/Fluent_2013__Ben_Galbraith_and_Dion_Almaer__Serving_the_Wor.mp3" type="audio/mp3">
+                            <p>Your browser do not support this audio format</p>
+                            <a href="../audio/Fluent_2013__Ben_Galbraith_and_Dion_Almaer__Serving_the_Wor.mp3">Download audio</a>
+                        </audio>
+
+                    </div>
+                    <aside class="right1">
+                        <a class="mylink" href="../pages/demo-pseudoclasses.html" title="demo-pseudoclasses">Examples</a>
+                        <canvas id="myCanvas" width="240px" height="650px">Your browser do not support tag canvas</canvas>
+                    </aside>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="copyright">
+                    <p><b>Brendan Eich &copy; 2022</b></p>
+                </div>
+            </div>
+        </footer>
+        <script src="../script/app.js"></script>
+        <script src="../script/app2.js"></script>
+    </body>
+</html>

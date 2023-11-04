@@ -1,0 +1,55 @@
+.right1 {
+    background-color: #e5e5e5;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    border-bottom: 7px solid #1e2939;
+    display: flex;
+    flex-direction: column;
+}
+
+.demo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.link-container {
+    width: 40%;
+}
+
+.mylink1 {
+    width: 100%;
+    border: 1px solid #333;
+    margin-top: 7px;
+    background: linear-gradient(to bottom, #e5e5e5, #b3b1b1);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #1e2939;
+    font-weight: 900;
+}
+
+.mylink1:hover {
+    color: #ffffff;
+    background: linear-gradient(to bottom, #b3b1b1, #e5e5e5);
+}
+
+.mylink1:active {
+    color: #2409c2;
+    border: 2px solid #2409c2;
+}
+
+.mylink1:nth-child(even):visited {
+    color: #b92828;
+    background: linear-gradient(to bottom, #b3b1b1, #e5e5e5);
+    border: 2px solid #b92828;
+}
+
+.mylink1:nth-child(odd):visited {
+    color: #39b928;
+    background: linear-gradient(to bottom, #b3b1b1, #e5e5e5);
+    border: 2px solid #39b928;
+}
+
